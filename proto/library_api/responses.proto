@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package LibraryAPI.Responses;
+option objc_class_prefix = "LibraryAPI_Responses_";
+
+import "library_api/book.proto";
+
+message GetBooks {
+    repeated Book books = 1;
+}
