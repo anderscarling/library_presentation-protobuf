@@ -21,6 +21,7 @@
 #endif
 
  #import "Library_API_Book.pbobjc.h"
+ #import "Library_API_Author.pbobjc.h"
  #import "Library_API_Responses.pbobjc.h"
 // @@protoc_insertion_point(imports)
 

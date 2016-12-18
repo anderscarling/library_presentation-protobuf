@@ -3,8 +3,11 @@ syntax = "proto3";
 package LibraryAPI;
 option objc_class_prefix = "LibraryAPI_";
 
+import "library_api/author.proto";
+
 message Book {
 	int32 id = 1;
-	string author = 2;
+	reserved 2;
+	Author author = 4;
 	string title = 3;
 }

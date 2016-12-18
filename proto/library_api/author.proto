@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package LibraryAPI;
+option objc_class_prefix = "LibraryAPI_";
+
+import "google/protobuf/timestamp.proto";
+
+message Author {
+	int32 id = 1;
+	string name = 4;
+	google.protobuf.Timestamp birthday = 3;
+}

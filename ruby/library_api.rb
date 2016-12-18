@@ -4,6 +4,7 @@
 require 'google/protobuf'
 
 require 'library_api/book'
+require 'library_api/author'
 require 'library_api/responses'
 Google::Protobuf::DescriptorPool.generated_pool.build do
 end

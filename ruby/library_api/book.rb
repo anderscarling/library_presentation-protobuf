@@ -3,10 +3,11 @@
 
 require 'google/protobuf'
 
+require 'library_api/author'
 Google::Protobuf::DescriptorPool.generated_pool.build do
   add_message "LibraryAPI.Book" do
     optional :id, :int32, 1
-    optional :author, :string, 2
+    optional :author, :message, 4, "LibraryAPI.Author"
     optional :title, :string, 3
   end
 end

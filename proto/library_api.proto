@@ -4,4 +4,5 @@ package LibraryAPI;
 option objc_class_prefix = "LIBRARY_API_";
 
 import public "library_api/book.proto";
+import public "library_api/author.proto";
 import public "library_api/responses.proto";
